@@ -9,36 +9,46 @@
 
 #snakecontainer{
   width:1000px;
-  height:2500px;
-  position: absolute;
+  height: 1400px;
+  position: relative;
   right: 0px;
 
 }
 .snakeH1 {
   font-family: head;
-  font-size: 72px;
-  text-align: right;
+  font-size: 80px;
+  text-align: center;
+  text-shadow: 2px 2px 5px white;
 }
 .snakeP1 {
   font-family: body;
   font-size: 48px;
   text-align: right;
+  top: 50px;
+  position: relative;
 }
 .snakeP2 {
   font-family: body;
   font-size: 48px;
   text-align: right;
+  position: relative;
+  top: 100px;
 }
 .snakeP3 {
   font-family: body;
   font-size: 48px;
   text-align: right;
+  position: relative;
+  top: 200px;
 }
-.snake {
+.snake2 {
 width: 800px;
 left: 0px;
 position: absolute;
 top: -10px;
+left: -20px;
+z-index: -1;
+opacity: 70%;
 
 
 }
