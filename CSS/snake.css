@@ -1,10 +1,10 @@
 @font-face {
   font-family: body;
-  src: url(/type/Coconat-Regular.otf);
+  src: url(../type/Coconat-Regular.otf);
 }
 @font-face {
   font-family: head;
-  src: url(/type/Coconat-BoldExt.otf);
+  src: url(../type/Coconat-BoldExt.otf);
 }
 
 #snakecontainer{
