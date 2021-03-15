@@ -1,0 +1,44 @@
+@font-face {
+  font-family: body;
+  src: url(/type/Coconat-Regular.otf);
+}
+@font-face {
+  font-family: head;
+  src: url(/type/Coconat-BoldExt.otf);
+}
+
+#snakecontainer{
+  width:400px;
+  height:2000px;
+  position: absolute;
+  right: 0px;
+
+}
+.snakeH1 {
+  font-family: head;
+  font-size: 48px;
+  text-align: right;
+}
+.snakeP1 {
+  font-family: body;
+  font-size: 24px;
+  text-align: right;
+}
+.snakeP2 {
+  font-family: body;
+  font-size: 24px;
+  text-align: right;
+}
+.snakeP3 {
+  font-family: body;
+  font-size: 24px;
+  text-align: right;
+}
+.snake {
+width: 400px;
+left: 0px;
+position: absolute;
+top: -10px;
+
+
+}
