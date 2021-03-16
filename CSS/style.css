@@ -6,6 +6,29 @@
   font-family: head;
   src: url(../type/Coconat-BoldExt.otf);
 }
+a:link {
+  color: black;
+  text-shadow: 2px 5px 8px grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
 p{
   font-family: body;
   font-size: 46pt;
