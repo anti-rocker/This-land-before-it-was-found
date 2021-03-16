@@ -10,7 +10,7 @@
 
 #snakecontainer{
   width:950px;
-  position: relative;
+  position: absolute;
   right: 0px;
 
 }
@@ -20,7 +20,6 @@
   text-align: center;
   text-shadow: 2px 2px 5px white;
   color:black;
-
   position: absolute;
 }
 .snakeP1 {

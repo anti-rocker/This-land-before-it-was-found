@@ -16,24 +16,21 @@ h1{
 font-family: head;
 font-size: 48pt;
 text-align: center;
-position: absolute;
+position: relative;
 top: 0px;
 }
 body {
   background-color: white;
   }
-#maincontainer{
-  position: absolute;
+#container{
+  position: relative;
   top: 0px;
   width: 100%;
 }
 
-#linkcontainer {
-  position: relative;
 
-}
 
 .SnakeLink {
   position: relative;
-  top: 100px;
+  /* top: 100px; */
 }

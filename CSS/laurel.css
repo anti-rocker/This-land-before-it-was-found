@@ -1,0 +1,54 @@
+@font-face {
+  font-family: body;
+  src: url(../type/Coconat-Regular.otf);
+}
+@font-face {
+  font-family: head;
+  src: url(../type/Coconat-BoldExt.otf);
+}
+
+
+#container{
+  position: relative;
+  height: 1350px;
+  width: 950px;
+}
+.laurelH1 {
+width: 100%;
+  font-family: head;
+  font-size: 55px;
+  text-align: right;
+  text-shadow: 2px 2px 5px white;
+  color:black;
+  position: relative;
+}
+.laurel {
+  position: relative;
+top:0px;
+}
+
+#container2{
+  position: absolute;
+  height: 1350px;
+  width: 950px;
+
+.laurel1 {
+  position: absolute;
+  left: 500px;
+  bottom: 0px;
+}
+.laurel2 {
+  position: absolute;
+  left: 4800px;
+  top: 0px;
+}
+.laurel3 {
+  position: absolute;
+  left: 0px;
+  top: 480px;
+}
+.laurel4 {
+  position: absolute;
+  left: 480px;
+  top: 480px;
+}
