@@ -6,21 +6,33 @@
   font-family: head;
   src: url(../type/Coconat-BoldExt.otf);
 }
-
+body{
+  background-color: #E8E5FC ;
+}
 
 #snakecontainer{
   width:950px;
-  position: absolute;
+  position: relative;
   right: 0px;
 
 }
 .snakeH1 {
   font-family: head;
   font-size: 70px;
-  text-align: center;
+  text-align: right;
   text-shadow: 2px 2px 5px white;
   color:black;
   position: absolute;
+}
+
+.snakeP0 {
+  font-family: body;
+  font-style: italic;
+  font-size: 30px;
+  position: absolute;
+  top: 170px;
+  right: 0;
+  text-align: right;
 }
 .snakeP1 {
   font-family: body;
@@ -28,7 +40,7 @@
   right: 0;
   font-size: 48px;
   text-align: right;
-  top: 200px;
+  top: 230px;
   position: absolute;
 }
 .snakeP2 {

@@ -1,0 +1,94 @@
+@font-face {
+  font-family: body;
+  src: url(../type/Coconat-Regular.otf);
+}
+@font-face {
+  font-family: head;
+  src: url(../type/Coconat-BoldExt.otf);
+}
+body{
+  background-color: #E8E5FC ;
+}
+#container{
+  position: relative;
+  height: 1350px;
+  width: 950px;
+  right:0px;
+  top: -50px;
+}
+
+.H1 {
+/* width: 100%; */
+  font-family: head;
+  font-size: 40px;
+  top: 50px;
+  text-align: right;
+  text-shadow: 2px 2px 5px white;
+  color:black;
+  position: relative;
+  top: 0px;
+}
+p {
+  font-family: body;
+  /* width: 650px; */
+  right: 0;
+  font-size: 48px;
+  text-align: right;
+  top: 360px;
+  position: absolute;
+  text-shadow: 2px 2px 8px white;
+}
+
+.p1 {
+  font-style: italic;
+  font-size: 30px;
+  top: -40px;
+  position: relative;
+}
+
+.p2 {
+  position: relative;
+  top: -50px;
+  width: 580px;
+right: -375px;
+text-align: right;
+}
+.p3{
+  position: relative;
+  top: -70px;
+}
+.frog {
+  width: 700px;
+  position: absolute;
+  left: -180px;
+  top: 200px;
+  z-index: -1;
+  transform: scaleX(-1);
+}
+
+#container2{
+  position: relative;
+  /* height: 1250px; */
+  width: 950px;
+  top: 270px;
+}
+.frog1 {
+  position: absolute;
+  right: 480px;
+  top: 300px;
+}
+.frog2 {
+  position: absolute;
+  right: 0px;
+  top: 300px;
+}
+.frog3 {
+  position: absolute;
+  left: -5px;
+  top: 780px;
+}
+.frog4 {
+  position: absolute;
+  right: 0;
+  top: 780px;
+}

@@ -6,79 +6,89 @@
   font-family: head;
   src: url(../type/Coconat-BoldExt.otf);
 }
-
+body{
+  background-color: #E8E5FC ;
+}
 
 #container{
   position: relative;
   height: 1350px;
   width: 950px;
   right:0px;
-  top: 0px;
+  top: -50px;
 }
 
 .laurelH1 {
-width: 100%;
+/* width: 100%; */
   font-family: head;
-  font-size: 55px;
+  font-size: 40px;
+  top: 50px;
   text-align: right;
   text-shadow: 2px 2px 5px white;
   color:black;
   position: relative;
   top: 0px;
 }
-/* h1{
-  position: absolute;
-  width: 100%;
-  top: -20px;
-  font-size: 120px;
-
-}
-
-h2{
-  position: relative;
-  /* width: 100%; */
-  /* font-size: 55px;
-} */
 p {
   font-family: body;
   /* width: 650px; */
   right: 0;
   font-size: 48px;
   text-align: right;
-  top: 220px;
+  top: 360px;
+  position: absolute;
+  text-shadow: 2px 2px 5px white;
+}
+
+.p1 {
+  font-style: italic;
+  font-size: 30px;
+  top: -40px;
   position: relative;
 }
-.laurel {
-  width: 420px;
-  position: absolute;
-top:150px;
-z-index: -1;
 
+.p2 {
+  position: relative;
+  top: -50px;
+  width: 780px;
+right: -175px;
+text-align: right;
+}
+.p3{
+  position: relative;
+  top: -70px;
+}
+.laurel {
+  width: 400px;
+  position: absolute;
+  left: -20px;
+  top: -10px;
+  z-index: -1;
 }
 
-
 #container2{
-  position: absolute;
-  height: 1350px;
+  position: relative;
+  height: 1050px;
   width: 950px;
-
+  top: -240px;
+}
 .laurel1 {
   position: absolute;
-  left: 500px;
-  bottom: 0px;
+  left: 480px;
+  top: 300px;
 }
 .laurel2 {
   position: absolute;
-  left: 4800px;
-  top: 0px;
+  left: 0px;
+  top: 300px;
 }
 .laurel3 {
-  position: absolute;
+  position: relative;
   left: 0px;
-  top: 480px;
+  top: 780px;
 }
 .laurel4 {
   position: absolute;
   left: 480px;
-  top: 480px;
+  top: 780px;
 }
